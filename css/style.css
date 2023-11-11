@@ -461,7 +461,7 @@ ol {
     content: "";
     position: absolute;
     top: 76%;
-    left: 37%;
+    right: 58%;
     background-color: #E0E0E0;
     width: 55px;
     height: 1.2px;
@@ -526,7 +526,8 @@ ol {
 .clients .client .client-img {
     position: absolute;
     top: -35px;
-    left: 29%;
+    left: 50%;
+    transform: translateX(-50%);
     margin: 0 auto;
     text-align: center;
     width: 111px;
@@ -961,7 +962,7 @@ ol {
         max-width: 90%;
     }
     .bfr-aftr::after {
-        left: 35%;
+        right: 59%;
     }
 
     .bfr-aftr::before {
@@ -979,7 +980,7 @@ ol {
         margin-top: 10px;
     }
     .bfr-aftr::after {
-        left: 33%;
+        right: 60%;
     }
 
     .bfr-aftr::before {
@@ -1023,7 +1024,7 @@ ol {
 
 @media screen and (max-width: 880px) {
     .bfr-aftr::after {
-        left: 31%;
+        right: 61%;
     }
 
     .bfr-aftr::before {
@@ -1041,7 +1042,7 @@ ol {
 
 @media screen and (max-width: 770px) {
     .bfr-aftr::after {
-        left: 28%;
+        right: 63%;
     }
 
     .bfr-aftr::before {
@@ -1061,7 +1062,7 @@ ol {
 
 
     .bfr-aftr::after {
-        left: 26%;
+        right: 64%;
     }
 
     .bfr-aftr::before {
@@ -1076,7 +1077,7 @@ ol {
 
 @media screen and (max-width: 605px) {
     .bfr-aftr::after {
-        left: 22%;
+        right: 67%;
     }
 
     .bfr-aftr::before {
@@ -1086,7 +1087,7 @@ ol {
 
 @media screen and (max-width: 530px) {
     .bfr-aftr::after {
-        left: 17%;
+        right: 70%;
     }
 
     .bfr-aftr::before {
@@ -1154,7 +1155,7 @@ ol {
     }
 
     .bfr-aftr::after {
-        left: 13%;
+        right: 72%;
     }
 
     .bfr-aftr::before {
@@ -1168,7 +1169,7 @@ ol {
 
 @media screen and (max-width: 395px) {
     .bfr-aftr::after {
-        left: 4%;
+        right: 78%;
     }
     .bfr-aftr::before {
         left: 78%;
